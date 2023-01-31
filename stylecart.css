@@ -1,0 +1,1131 @@
+body{
+	width:100%;height:100%;margin:0;
+	background-color:#f1f1f1;
+	
+}
+nav{
+display:inline-block;width:100%;height: 80px; position: fixed;float:left;
+background-color:#ffc453;
+background-color: whit
+}
+
+nav .logo{
+	font-size: 24px;float:left;margin:0px;padding:0px;
+	color: black;
+}
+.dropdown ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+.dropdown{
+	width: 450px;
+	height: 100px;
+	margin: 0px auto;
+	float: left;
+
+}
+.dropdown ul li{
+	float: left;
+	color: black;
+	width: 150px;
+	font-size: 20px;
+	text-align: center;
+	list-style-type: none;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.dropdown ul{
+	padding:0px;
+}
+.dropdown ul li ul{
+	display: none;
+}
+.dropdown ul li:hover>ul{
+	display: block;
+
+}
+.dropdown ul li:hover{
+	background-color:#ffe17a;
+	border-bottom: 5px solid red;
+	
+}
+.dropdown ul li ul li{
+	position: relative;
+	background-color:#ffe17a;
+}
+.dropdown ul li ul li ul{
+	position: absolute;
+	left:150px;
+	top: 0px;
+	font-weight: 600;
+
+
+}
+
+.in{
+	display: inline-block;width: 100%;height:500px;background-color: black;
+}
+ .slider{
+box-shadow:1px 2px 10px yellow;
+width:100%;height:500px;background:cover;background-image:url('https://www.zero20kids.com/media/images/boys-designer-deux-par-deux-banner-2020-50-off-sale.jpg');background-size:100% 100%;animation:slider 40s infinite linear;
+}
+@keyframes slider{
+0%{background-image:url('https://www.gizmochina.com/wp-content/uploads/2018/02/Mi-LED-TV-4-featured.jpeg'); }
+25%{background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'); }
+50%{background-image:url('https://i.gadgets360cdn.com/large/oneplus_8sale_1590727224288.jpg'); }
+100%{background-image:url('https://www.zero20kids.com/media/images/boys-designer-deux-par-deux-banner-2020-50-off-sale.jpg')}
+}
+
+.bestsale{
+	display:inline-block;width:50%;height:600px;background-image: url('https://images.unsplash.com/photo-1580828343064-fde4fc206bc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    background-size: cover;float: left;
+}
+.bs2{
+	widht:50%;height:600px;float:left;}
+.bestsale p{
+	color:white;
+	margin:30px;
+	font-style: italic;
+	font-size: 35px;
+	font-weight: 600;
+	border-bottom:3px solid red;
+}
+.bestdeals{
+	display:inline-block;width:50%;height:750px;
+}
+.bd2{
+	width:50%;height:750px;float:right;background-image: url('https://sd.keepcalms.com/i/keep-calm-we-ve-got-the-best-deals.png');background-size: cover;
+}
+.bd2 i{
+	font-size: 35px; 
+	font-weight: 600;
+	border-bottom: 3px solid green;
+}
+.cloth{
+	display:inline-block;width:50%;height:600px;background-color: grey;float:left;
+}
+.cl2{
+	width: 50%;height: 600px;float:left;background-image: url('https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+}
+.cl2 p{
+	font-size: 30px;font-weight: 600;color: #fff;border-bottom: 2px solid red;
+}
+.electronics{
+	display:inline-block;width:50%;height:600px;background-color: red;background-image: url('https://images.unsplash.com/photo-1526738549149-8e07eca6c147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80');float: left;
+}
+.ec2{
+	width: 50%;height: 600px;float: left;
+}
+.electronics p{
+	font-weight: 600;font-size: 30px;color: white;border-bottom: 2px solid red;
+}
+.fresh{
+	display:inline-block;width:50%;height:600px;background-color: green;background-image:url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');background-size: cover;
+	float:left;
+
+}
+.fresh p{font-size: 45px;color:black;margin:100px;margin-top:200px;font-weight: 800;text-shadow: 5px 3px   orange;
+}
+
+.f2{
+width:50%;height:  600px;float:left;
+}
+
+.brands{
+display:inline-block; width:100%;height:500px;background-image: url('https://www.interbrand.com/wp-content/uploads/2018/08/GenZ-BrandChoice_v3-B2.gif');background-size: 100% 500px;
+}
+
+.brands p{
+	color: #fff;font-size: 30px;text-align: center;
+}
+.font  {
+	float:right;font-size:25px;width:200px;margin:0px;
+	background-color:#ffc453;
+	height:60px;
+}
+
+
+.fa-cart-arrow-down{
+	color: green;
+}
+ .fa-user{
+ 	color: blue;
+ }
+ .search-box{
+ 	margin-top:30px;
+ 	margin-left:500px;
+ 	border-radius: 60px;
+
+ }
+  .search-btn{
+ 	background-color: transparent;
+ 	outline: none;
+ }
+ .search-txt{
+ 	width:300px;
+ 	height:35px;
+ 	border:3px solid black;
+ 	outline: none;
+
+ 	border-radius:40px;
+ }
+
+.fa-search{
+	font-size: 22px;
+}
+.conta{
+  width:100%;height:400px;background-color: #192841;display: inline-block;
+}
+
+.k {
+	width: 300px;height: 200px;color: white;margin:30px;float:left;border-right: 2px solid red;
+
+}
+ .conta .k h1{
+	color:white;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+	
+}
+.conta .k p{
+	font-size: 15px;
+	color:#cfcfcf;
+	font-weight: 600;
+
+}
+.f{
+	width: 300px;height: 200px;
+	margin:30px;
+	float:left;
+	border-right: 2px solid red;
+}
+
+.f h1 {
+	color:white;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+
+}
+.f p{
+    font-size: 15px;
+	color:#cfcfcf;
+	font-weight: 600;
+
+}
+.add{
+    width: 362px;height: 200px;
+	margin:30px;
+	float:left;
+}	
+
+.add h1 {
+	color:white;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+
+}
+.add p{
+    font-size: 15px;
+	color:#cfcfcf;
+	font-weight: 600;
+
+}
+
+.fot{
+
+		width: 25%;height:30px;float:left;
+	}
+.fot button{
+	padding:20px;
+	color:black;
+	border-top-left-radius: 30px;
+	margin-left:1020px;
+	margin-top:60px;
+	border-bottom-left-radius: 30px;
+	background-color:yellow;
+	width:110px;
+	height:60px;
+	border:none;
+	outline:none;
+	font-size: 15px;
+}	
+.fot2{
+	width:75%;height: 30px;float:left;
+}
+.fot2 p{
+	color:#cfcfcf;
+}
+.fot2 button{
+	float:right;font-size: 40px;width:50px;height:50px;margin-right:30px;background-color:#192841;border:1px solid #cfcfcf;outline:none;
+	border-radius:100%;
+}
+.fot2 i{
+	color:yellow;outline:none;
+}
+.bs2 .inner .card, .bestdeals .inner  .card, .cloth .inner .card, .ec2 .inner .card, .f2 .inner .card{
+  display:grid;
+ grid-template-columns: 150px;
+ grid-template-rows: 100px 70px 20px;
+ grid-template-areas: "image" "text" "stats";
+ background: white;
+ border:3px solid black;
+ text-align:left;
+ transition: 1s;
+ margin-left:100px;
+ margin-top:50px;
+ float:left;
+width:150px;
+color:black;
+overflow: hidden;
+}
+
+.card:hover{
+transform:scale(1.01);
+filter:brightness();
+box-shadow: 3px 5px 5px black;
+}
+.card-image{
+  grid-area: "image";
+ background-image:url('https://images-na.ssl-images-amazon.com/images/I/61ptzNC8r8L._SL1500_.jpg');
+ background-size: cover;
+ border-top-radius:15px;
+
+}
+.card-i{
+  grid-area: "image";
+ background-image: url('https://assets.ajio.com/medias/sys_master/root/h3b/hc6/14962896011294/-1117Wx1400H-460533916-red-MODEL.jpg');
+ background-size: cover;
+ border-top-radius:15px;
+
+}.card-im{
+  grid-area: "image";
+ background-image: url('https://rukminim1.flixcart.com/image/714/857/jgcktjk0/sari/7/3/9/free-double-peocock-indianbeauty-original-imaf4hwsshzzby5v.jpeg?q=50');
+ background-size: cover;
+ border-top-radius:15px;
+
+}.card-ima{
+  grid-area: "image";
+ background-image: url('https://ae01.alicdn.com/kf/HTB1il1KXUvrK1RjSspcq6zzSXXai/Original-New-Arrival-2018-PUMA-Cali-Women-s-Skateboarding-Shoes-Sneakers.jpg');
+  background-size: cover;
+ border-top-radius:15px;
+
+}.card-imag{
+  grid-area: "image";
+ background-image: url('https://phoneradar.com/wp-content/uploads/2018/11/Fastrack-Reflex-WAV.jpg');
+ background-size: cover;
+ border-top-radius:15px;
+
+}.card-imagee{
+  grid-area: "image";
+ background-image: url('https://allensolly.imgix.net/img/app/product/2/278291-1145859.jpg');
+ background-size:100px 100px;
+ background-repeat: no-repeat;
+ border-top-radius:15px;
+
+}.card-imagel{
+  grid-area: "image";
+ background-image: url('https://cdn.opstatics.com/store/20170907/assets/images/events/2020/07/nord/specs/color-nord.png');
+background-size: cover;
+ border-top-radius:15px;
+
+}.card-imagex{
+  grid-area: "image";
+ background-image: url('https://images.philips.com/is/image/PhilipsConsumer/TASH402LF_00-IMS-en_IN?$jpglarge$&wid=1250');
+ background-size:100px 100px;
+ background-repeat: no-repeat;
+ border-top-radius:15px;
+
+}
+.card-imagef{
+  grid-area: "image";
+ background-image: url('https://n1.sdlcdn.com/imgs/g/3/0/Renaissance-Traders-Fresh-Arrival-Magnificent-SDL125762633-2-14525.jpg');
+background-size:130px 130px;
+ border-top-radius:15px;
+}
+.card-imager{
+  grid-area: "image";
+ background-image: url('https://images-na.ssl-images-amazon.com/images/I/71EJjqscUcL._UY500_.jpg');
+background-size:130px 110px;
+ border-top-radius:15px;
+}
+.card-imageh{
+  grid-area: "image";
+ background-image: url('https://images-eu.ssl-images-amazon.com/images/I/41Fx-+dwV8L._AC_UL260_SR200,260_.jpg');
+background-size:150px 120px;
+ border-top-radius:15px;
+}
+.card-imagem{
+  grid-area: "image";
+ background-image: url('https://cdn1.smartprix.com/rx-iMNcwFFvp-w1200-h1200/lenovo-yoga-c940-lap.jpg');
+background-size:140px 130px;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+
+.card-image1{
+  grid-area: "image";
+ background-image: url('https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/08/24/Photos/Technology/z7-ksgF--621x414@LiveMint.PNG');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+
+.card-image2{
+  grid-area: "image";
+ background-image: url('https://images.indianexpress.com/2018/07/thomson-b9.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+
+.card-image3{
+  grid-area: "image";
+ background-image: url('https://tiimg.tistatic.com/fp/1/001/066/moblie-phone-blackberry-8110--860.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+
+.card-image4{
+  grid-area: "image";
+ background-image: url('https://profiles.sulekha.com/mstore/2063368/albums/default/thumbnailfull/hometheatre-5dec.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+.card-image1001{
+  grid-area: "image";
+ background-image: url('https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ9isWRzN37gPIC70TxN1NPssJOaUsxHtFbzncanMdSco4lph2HvPa8vCj-SLXwATREoA_BOQDPLK8ZltORadpPg5Z_smpmQsFEkBtHijca&usqp=CAE');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+.card-image1002{
+  grid-area: "image";
+ background-image: url('https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQGB66pGVvO600XSYBpPFPuOABWcalwDmOQhfGykirlJqomLp_ISrB7sY5GFdnEUZBLmVjVCPnvTcNOil1AnUhkE1AS7_7MxvVDs3nfjyKLv8gAX37I1nYovw&usqp=CAE');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+.card-image1003{
+  grid-area: "image";
+ background-image: url('https://www.exchange4media.com/news-photo/100149.RanveerSinghManyavar.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+.card-image1004{
+  grid-area: "image";
+ background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+background-size:cover;
+background-repeat: no-repeat;
+ border-top-radius:15px;
+}
+
+.card-text{
+grid-area: "text";
+margin:15px;
+}
+
+.card-stats{
+grid-area: stats;
+grid-template-columns: 2fr 4fr 6fr;
+grid-template-rows: 2fr;
+background-color: orange;  
+display:grid;  
+}
+.brands{
+position:relative; 
+}
+.brands .card{
+	cursor: pointer;
+	width:150px;
+	height: 110px;
+	float:left;
+	margin-left:30px;
+	margin-bottom: 100px;
+
+}
+.front,.back{
+	
+	height:110px;
+	backface-visibility: hidden;
+	position: absolute;
+	transition: transform .4s linear;
+}
+.front img{
+
+	height: 110px;
+	width: 160px;
+
+}	
+.front{
+	transform: perspective(600px) rotateY(0deg);
+}
+.back{
+	background-color: #f1f1f1;
+transform:perspective(600px) rotateY(180deg);
+}
+
+.brands .card:hover> .front{
+	transform: perspective(600px) rotateY(-180deg);
+}
+.brands .card:hover> .back{
+
+transform: perspective(600px) rotateY(0deg);
+	
+}
+.back img{
+	width:160px;
+	height: 110px;
+}
+.poster{
+	width: 50%;
+	display: inline-block;
+	height: 250px;
+	background-color: black;
+	float: left;
+
+}
+.poster img{
+width: 300px;
+height:250px;
+}
+.pos {
+	width:50%;
+	height: 250px;
+	float:left;
+	color:orange;
+	background-color: black;
+
+}
+.pos h1{
+font-size: 25px;
+padding-top:10px;
+}
+.pos button{
+	margin-left:100px;
+	margin-top:24px;
+	padding:10px;
+	outline: none;
+	border: 3px solid white;
+	background-color: grey;
+	color: white;
+	background-color: black;
+
+
+}
+.pos h6{
+	color: white;
+}
+.blank{
+	width: 100%;
+	height:120px;
+	display: inline-block;
+	background-color:transparent;
+	
+
+}
+.blank p{
+    margin-top:80px;
+	font-size: 17px;
+	line-height: 35px;
+	font-weight: bold;
+	color:black;
+}
+.blank p a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+}
+.shirts{
+	display: inline-block;
+	width: 77%;
+	height: 1200px;
+	float:left;
+	background-color:#ffc9a9;
+	ackground-image: url('https://media2.giphy.com/media/3o7qDNfxtNRtLVv8qs/source.gif');
+	background-size: cover;
+     background-color:#f1f1f1;
+     border-right: 5px solid black;
+     border-top: 5px solid black;
+		
+}
+.s1001,.s1002,.s1003,.s1004,.s1005,.s1006{
+	width:200px;
+	height: 320px;
+	float:left;
+	margin-left: 40px;
+	margin-right:40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color:white;
+	border:1px solid black;
+
+}
+.s1001 img, .s1002 img,.s1003 img,.s1004 img,.s1005 img ,.s1006 img{
+	width: 170px;
+	height: 150px;
+	margin: 15px;
+	border-radius: 90%;
+}
+.s1001 h1,.s1002 h1,.s1003 h1,.s1004 h1,.s1005 h1,.s1006 h1{
+	text-align: center;
+	font-size: 15px;
+	color:black;
+}
+.s1001 button ,.s1002 button,.s1003 button,.s1004 button,.s1005 button,.s1006 button{
+	margin-top:15px;margin-left: 15px;padding-left:15px;padding-right: 15px;padding-top:5px;padding-bottom: 5px;
+outline:none;border:none;
+border-radius: 35%;
+border-bottom: 3px solid red;
+background-color: #ffc453;
+}
+.s1001:hover,.s1002:hover,.s1003:hover,.s1004:hover,.s1005:hover,.s1006:hover{
+	border-left: 5px solid red;
+	
+}
+.filter{
+	width:22%;
+	height:1200px;
+	float:left;
+	background-color:#ffc9a9;
+	background-color:#f1f1f1;
+    text-align: center;
+    
+}
+
+.filter img{
+	width:225px;
+	height:210px;
+	margin-top:20px;
+	
+}
+.filter .inner{
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	background-color:#fff;
+
+}
+.filter button{
+	margin-bottom:4px;
+	padding: 3px;
+	color:white;
+	background-color:black;
+	outline:none;
+
+}
+.filr i{
+font-size: 60px;
+padding:20px;
+}
+.move{
+	width:100%;
+	height:30px;
+	overflow: hidden;
+	display:inline-block; 
+	background-color:#003333;
+	
+}
+.move marquee{
+	line-height: 10px;
+	color:#ffc453; 
+
+
+}
+.content{
+	width:800px;
+	height:750px;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 10px;
+	
+
+
+}
+.content i{
+	font-size: 18px;
+	text-align:left;
+	margin-top: 20px;
+	margin-left: 30px;
+	float: right;
+	font-weight: 600;
+
+
+}
+.content b{
+	font-size: 50px;
+	font-weight: 500;
+	color:yellow;
+    text-shadow: 5px  3px 3px green; 
+	font-family: 'Pacifico', cursive;
+}
+.box{
+	display: inline-block;
+	width:50%;
+	height: 800px;
+	background-color: #003152;
+	border-bottom: 5px solid black;
+}
+
+.box .pic1{
+	width:300px;
+	height: 200px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url('https://assets.ajio.com/medias/sys_master/root/h13/ha2/14111760515102/-1117Wx1400H-460399058-blue-MODEL.jpg');
+	background-size: cover;
+
+}
+.box .pic1:hover{
+	background-image: url('https://assets.ajio.com/medias/sys_master/root/h68/h37/14111746883614/-473Wx593H-460399058-blue-MODEL2.jpg');
+}
+.box .pic2{
+	float:left;
+	width:270px;
+	height: 200px;
+	margin-right: 10px;
+	background-image: url('https://assets.ajio.com/medias/sys_master/root/h27/hdc/14111762907166/-473Wx593H-460399058-blue-MODEL3.jpg');
+	background-size: cover;
+	margin-left: 10px;
+}
+.box .pic2:hover{
+	background-image: url('https://assets.ajio.com/medias/sys_master/root/hb6/h4c/14055757053982/gas-blue-classic-victor-textured-denim-shirt-with-dual-patch-pockets.jpg');
+}
+.box .pic3{
+	float:left;
+	width:270px;
+	height: 200px;
+	background-image: url('https://assets.ajio.com/medias/sys_master/root/h8d/hab/14111743868958/-473Wx593H-460399058-blue-MODEL4.jpg');
+	background-size: cover;
+	
+}
+.box .pic3:hover{
+	background-image: url('https://assets.ajio.com/medias/sys_master/root/h05/h1e/12899847831582/u.s.-polo-assn.-blue-classic-slim-fit-denim-shirt.jpg');
+}
+.box .pic4{
+	width:300px;
+	height: 200px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url('https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/503326/2018/5/9/4c89a202-cb13-45a0-8cf0-abe68854de341525860756905-US-Polo-Assn-Men-Pink-Polo-T-shirt-3291525860756627-1.jpg');
+	background-size: cover;
+
+}
+.box .pic4:hover{
+	background-image: url('https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/503326/2018/5/9/8285aac4-3de8-4e9d-87f6-d40cd5b367b01525860756845-US-Polo-Assn-Men-Pink-Polo-T-shirt-3291525860756627-4.jpg');
+}
+.box .pic5{
+	float:left;
+	width:270px;
+	height: 200px;
+	margin-right: 10px;
+	background-image: url('https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/503326/2018/5/9/11d5dc67-d703-4dd5-9a60-6c33f8ff70e61525860756879-US-Polo-Assn-Men-Pink-Polo-T-shirt-3291525860756627-2.jpg');
+	background-size: cover;
+	margin-left: 10px;
+}
+.box .pic5:hover{
+	background-image: url('https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/503326/2018/5/9/9ac80769-5db9-4cfc-9b55-5d1bb48c0daa1525860756827-US-Polo-Assn-Men-Pink-Polo-T-shirt-3291525860756627-5.jpg');
+}
+.box .pic6{
+	float:left;
+	width:270px;
+	height: 200px;
+	background-image: url('https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/503326/2018/5/9/d6df46e3-c209-4f83-9c99-68649b73872e1525860756863-US-Polo-Assn-Men-Pink-Polo-T-shirt-3291525860756627-3.jpg');
+	background-size: cover;
+	
+}
+.box .pic6:hover{
+	background-image: url('https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/503326/2018/5/9/9ac80769-5db9-4cfc-9b55-5d1bb48c0daa1525860756827-US-Polo-Assn-Men-Pink-Polo-T-shirt-3291525860756627-5.jpg');
+}
+.box .pic7{
+	width:300px;
+	height: 200px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1600/681-103s.jpg');
+	background-size: cover;
+
+}
+.box .pic7:hover{
+	background-image: url('https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G24/shotview/1600/681-103s5.jpg');
+}
+.box .pic8{
+	float:left;
+	width:270px;
+	height: 200px;
+	margin-right: 10px;
+	background-image: url('https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G24/shotview/1600/681-103s2.jpg');
+	background-size: cover;
+	margin-left: 10px;
+}
+.box .pic8:hover{
+	background-image: url('https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G24/shotview/1600/681-103s3.jpg');
+}
+.box .pic9{
+	float:left;
+	width:270px;
+	height: 200px;
+	background-image: url('https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G24/shotview/1600/681-103s4.jpg');
+	background-size: cover;
+	
+}
+.box .pic9:hover{
+	background-image: url('https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G24/shotview/1600/681-103s7.jpg');
+}
+.box .pic10{
+	width:300px;
+	height: 200px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1604/101-169s.jpg');
+	background-size: cover;
+
+}
+.box .pic10:hover{
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1604/101-169s2.jpg');
+}
+.box .pic11{
+	float:left;
+	width:270px;
+	height: 200px;
+	margin-right: 10px;
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1604/101-169s3.jpg');
+	background-size: cover;
+	margin-left: 10px;
+}
+.box .pic11:hover{
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1604/101-169s4.jpg');
+}
+.box .pic12{
+	float:left;
+	width:270px;
+	height: 200px;
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1604/101-169s6.jpg');
+	background-size: cover;
+	
+}
+.box .pic12:hover{
+	background-image: url('https://xcdn.next.co.uk/common/Items/Default/Default/Publications/G24/shotview-315x472/1604/101-169s7.jpg');
+}
+.box .pic13{
+	width:300px;
+	height: 200px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url('https://www.balmain.com/12/12373671pw_11_b.jpg');
+	background-size: cover;
+
+}
+.box .pic13:hover{
+	background-image: url('https://www.balmain.com/12/12373671pw_11_d.jpg');
+}
+.box .pic14{
+	float:left;
+	width:270px;
+	height: 200px;
+	margin-right: 10px;
+	background-image: url('https://www.balmain.com/12/12373671pw_11_r.jpg');
+	background-size: cover;
+	margin-left: 10px;
+}
+.box .pic14:hover{
+	background-image: url('https://www.balmain.com/12/12373671pw_11_e.jpg');
+}
+.box .pic15{
+	float:left;
+	width:270px;
+	height: 200px;
+	background-image: url('https://www.balmain.com/12/12373671pw_11_g.jpg');
+	background-size: cover;
+	
+}
+.box .pic15:hover{
+	background-image: url('https://www.balmain.com/12/12373671PW_11_f.jpg');
+}
+.box .pic16{
+	width:300px;
+	height: 200px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/6194o09dWaL._UL1500_.jpg');
+	background-size: cover;
+
+}
+.box .pic16:hover{
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/7128tSIcjUL._UL1500_.jpg');
+}
+.box .pic17{
+	float:left;
+	width:270px;
+	height: 200px;
+	margin-right: 10px;
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/61NJPcOZiCL._UL1500_.jpg');
+	background-size: cover;
+	margin-left: 10px;
+}
+.box .pic17:hover{
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/71Avi14oJhL._UL1500_.jpg');
+}
+.box .pic18{
+	float:left;
+	width:270px;
+	height: 200px;
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/71BZgUrQmjL._UL1500_.jpg');
+	background-size: cover;
+	
+}
+.box .pic18:hover{
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/619cvSOeALL._UL1500_.jpg');
+}
+
+.box p{
+	font-size: 35px;
+	color:#ffd100;
+	font-weight: 500;
+	text-align:right;
+}
+.descr{
+	width:50%;
+	height: 800px;
+	float:right;
+	font-weight: 500;
+	background-color: #ffd100;
+	border-bottom: 5px solid black;
+}
+.descr p{
+	font-size: 35px;
+	color:navy;
+	text-align:left;
+	margin-left: 5px;
+}
+.descr h1{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	line-height: 6px;
+}
+.descr li{
+	list-style-type: none;
+	padding:5px;
+	font-weight: 700;
+}
+.descr h2{
+	text-align: center;
+	font-size: 25px;
+	color:green;
+}
+.descr b{
+	color: red;
+}
+.descr .cart{
+	width:170px;
+	height: 40px;
+	background-color:black;
+	color:white;
+	border-radius:30px;
+	margin-top: 40px;
+	margin-left: 60px;
+	outline:none;
+	cursor: pointer;
+
+}
+.descr .buy{
+	width:170px;
+	height: 40px;
+	background-color:black;
+	color:white;
+	outline: none;
+	cursor: pointer;
+	border-radius:30px;
+	margin-left: 100px;	
+	margin-top: 100px;
+}
+.descr img{
+	width: 120px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left:50px;
+}
+.revi{
+	width:100%;
+	height:250px;
+	display: inline-block;
+	}
+.review{
+	display: inline-block;
+	margin-top:40px;
+	float:left;
+	width: 300px;
+	max-height:200px;
+	overflow: scroll;
+}
+.review h1{
+	font-size: 25px;
+	color:navy;
+	line-height: 20px;	
+
+}
+.rating{
+	width:180px;
+	height: 180px;
+	float:left;
+	background-color: #ffc453;
+	border-radius:70%;
+	font-size: 35px;
+	border-left:4px solid black;
+	text-align: center;
+	margin:40px;
+
+}
+.rating:hover{
+	border:3px solid red;
+}
+.related{
+	float:left;
+	width:150px;
+	height:150px;
+	margin-left: 30px;
+	background-color: white;
+	border:1px solid black;
+}
+.related img{
+	width:150px;
+	height: 150px;
+}
+.related img:hover{
+transform: scale(1.1);
+border:1px solid black;	
+}
+.relpro{
+	width:100%;
+	height:350px;
+	margin-top:50px;
+	display: inline-block;
+	border-top:4px solid black;
+}
+.relpro h2{
+	font-size: 35px;
+	color: navy;
+	text-align: center;
+
+}
+.rat{
+	text-align: center;
+	font-size: 35px;
+	color:navy;
+	line-height: 2px;
+
+}
+.heading{
+	width:500px;
+	height:500px;
+	padding-top:40px;
+	text-align: center;
+	margin-left: 350px;
+	border-radius: 100%;
+	background-color:lightblue;
+	border-left:10px solid black;
+	border-right:10px solid black;
+}
+.heading h1{
+	font-size: 27px;
+	color: navy;
+
+}
+.bg_help{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7C1x2llZ8TFpOnb6WlPjiHqfmot8Y7MJt0g&usqp=CAU');
+}
+.heading #help{
+	margin-left: 20px;
+}
+#help .msge{
+	width:200px;
+	height: 150px;
+}
+#help #name,#msg,#email,#mobile{
+	border:none;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	outline: none;
+	padding-top:7px;
+}
+#help #log{
+	width: 80px;
+	height:40px;
+	background-color: black;
+	color:white;
+	border-radius: 30px;
+	cursor: pointer;
+
+}
+.back_bt{
+	border: 3px solid black;
+width:80px;
+height:50px;
+background-color:#ffc453;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+outline: none;
+}
+
+.aa
+{
+	float: left;
+	padding: 70px;
+}
+.s
+{
+	padding: 80px;
+	height:400px;
+	width: 500px;
+	overflow: auto;
+}
+div
+{
+	text-align: center;
+}
+h2
+{
+	text-align: center;
+	background: #f1c40f;
+	font-size: 30px;
+}
+h1
+{
+	padding: 5px;
+	font-size: 30px;
+}
+
+a img
+{	margin: 5px;
+	padding: 5px;
+}
+.fon{
+	float: right;
+}
+.foni p{
+	font-size: 18px;text-align: center;text-decoration:none;padding-right: 10px;font-weight: 500;
+color:black;
+}
+
+.foni{
+	float:left;margin-left:20px;margin-top: 5px;
+}
